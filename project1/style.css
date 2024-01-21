@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&family=Single+Day&display=swap');
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #fafafa;
+    
+}
+
+
+/* header section  */
+header{
+   background-color: #fff;
+   margin: 0px;
+   border-bottom: 3px solid rgba(210, 210, 210, 0.633);
+}
+.logo{
+    display: inline-block;
+}
+.logo h2{
+    display: inline-block;
+}
+.navbar{
+    display: inline;
+    width: auto;
+    float: right;
+
+}
+a{
+    display: inline;
+    text-decoration: none;
+}
+ul{
+    display: inline-block;
+    list-style: none;
+    word-spacing: 25px;
+}
+li{
+    display: inline-block;
+}
+li#coloured-button{
+    word-spacing: normal;
+    padding: 8px;
+    background-color: rgb(107, 43, 226);
+    border-radius: 10px;
+}
+li#coloured-button a{
+    color: white;
+}
+span#fname{
+    font-weight: 900;
+    color: rgb(107, 43, 226);
+}
+span#lname h2{
+    
+    color: rgb(143, 85, 249);
+    font-family: 'Roboto Mono', monospace;
+    font-weight:300;
+
+}
+#coloured-button:hover{
+    background-color: rgb(122, 51, 253);
+    box-shadow: 1px 1px 1px rgb(170, 170, 170);
+}
+
+
+/* body section */
+
+.home{
+    background-color: #fafafa;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.home-img{
+    height: 500px;
+    width: 700px;
+ 
+}
+#home-img{
+    overflow: hidden;
+    height: 500px;
+    width: 700px;
+}
+.home-text{
+    margin: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: justify;
+}
+#home-text-first{
+    color: rgb(27, 6, 131);
+}
+#home-text-two{
+   color: rgb(27, 6, 131);
+}
+
+/* intrests section  */
+.my-interests{
+    margin: 30px;   
+}
+.interest-heading{
+    text-align: center;
+    color:rgb(107, 43, 226);
+}
+.interests{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.interest-box{
+    border-radius: 15px;
+    background-color: #fff;
+    height: 400px;
+    width: auto;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(209, 208, 208, 0.813);
+}
+.interest-box img{
+    height: 300px;
+    width: auto;
+    border-radius: 15px;
+}
+.interest-box span{
+    display: block;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+/* potfolio section  */
+.potfolio{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.potfolio-box{
+    border-radius: 15px;
+    background-color: #fff;
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(209, 208, 208, 0.813);
+}
+.potfolio-box img{
+    height: 200px;
+    width: auto;
+    border-radius: 15px;
+}
+.potfolio-heading{
+    text-align: center;
+    color:rgb(107, 43, 226);
+}
+/* Social bar  */
+
+.social{
+    display: flex;
+    justify-content: center;
+
+}
+.social-bar{
+    text-align: center;
+}
+.social-heading{
+    text-align: center;
+    color:rgb(107, 43, 226);
+}
+.social-icon{
+    height: 50px;
+    width: 50px;
+    padding: 30px;
+}
+.social-icon img{
+    height: 50px;
+    width: 50px;
+}
+
+footer{
+   height: 300px;
+
+   background-image: url("images/wave.png");
+   width: 100%;
+   /* background-attachment: fixed; */
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-content: baseline;
+   
+}
+#footer-info{
+    margin-top: auto;
+    padding: 10px;
+    color: #fff;
+}
